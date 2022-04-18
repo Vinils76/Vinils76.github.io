@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Responsivando</title>
+
+    <!-- Descrição resumida da página -->
+    <meta name="description" content="Fale com a Equipe Responsivando.">
+
+    <!-- Palavras-chave de página -->
+    <meta name="keywords" content="contato criação de sites, responsivando">
+
+    <!-- Inserindo favicon-->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <!-- Link para arquivo css externo -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- cabeçalho contém apenas o menu neste exercício -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Página incial">início</a></li>
+                <li><a href="galeria.html" title="galeria de trabalhos">galeria</a></li>
+                <li><a href="multimidia.html" title="conteúdo multmídia">multimídia</a></li>
+                <li><a href="contato.html" title="Fale conosco">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contato">
+        <h1>Fale conosco</h1>
+        <p>Preencha o formulário abaixo, ligue para 11 2345-6789 ou se preferir visite-nos na rua Francisco Coimbra,403 - Penha - São Paulo.</p>
+        
+        <div class="form">
+            <form action="envia.php" method="post">
+            <div>
+             <label for="name">Nome:</label>
+             <input type="text" id="name" name="name"
+              required  placeholder="digite seu nome completo">
+            </div>
+
+            <div>
+             <label for="email">E-mail:</label>
+             <input type="email" id="email" name="email" required placeholder="digite seu melhor email">
+            </div>
+
+             <div>
+              <label for="fone">Fone:</label>
+              <input type="tel" name="fone" id="fone" placeholder="DDD + Fone">
+            </div>
+
+             <div>
+              <label for="msg">Mensagem:</label>
+              <textarea name="msg" id="msg" cols="30" placeholder="Dúvidas, críticas ou sugestões"></textarea>
+            </div>
+
+            <div>
+                 <input type="submit" name="Enviar" id="enviar" value="Lanse a Braba">
+            </div>
+             
+
+            </form>
+
+        </div>
+
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1758292735835!2d-46.542447148950195!3d-23.52617756610494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e45de28bb23%3A0x1d2ed3122aae28a7!2sSenac%20Penha!5e0!3m2!1spt-BR!2sbr!4v1644416766577!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+    </main>
+
+
+    
+
+    <!-- rodapé do site -->
+    <footer>
+        <p>Layout realizado utilizando Design Responsivo</p>
+    </footer>
+
+
+    
+ 
+</body>
+</html>
